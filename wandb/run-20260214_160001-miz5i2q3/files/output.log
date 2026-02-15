@@ -1,0 +1,30 @@
+Using device: cpu
+Model: resnet18
+Number of classes: 37
+Train samples: 5172
+Val samples: 1107
+Epoch [1/20] Train Loss: 1.9661, Train Acc: 0.4689 | Val Loss: 1.2253, Val Acc: 0.6360 | Time: 125.2s
+Saved best model to resnet18_best.pth
+Epoch [2/20] Train Loss: 1.1971, Train Acc: 0.6580 | Val Loss: 1.0332, Val Acc: 0.6883 | Time: 126.5s
+Saved best model to resnet18_best.pth
+Epoch [3/20] Train Loss: 1.0461, Train Acc: 0.6991 | Val Loss: 1.0466, Val Acc: 0.6649 | Time: 126.4s
+Epoch [4/20] Train Loss: 0.9704, Train Acc: 0.7017 | Val Loss: 0.9706, Val Acc: 0.7055 | Time: 127.8s
+Saved best model to resnet18_best.pth
+Epoch [5/20] Train Loss: 0.8982, Train Acc: 0.7285 | Val Loss: 0.9939, Val Acc: 0.6983 | Time: 126.3s
+Epoch [6/20] Train Loss: 0.8556, Train Acc: 0.7396 | Val Loss: 1.0115, Val Acc: 0.6992 | Time: 128.5s
+Epoch [7/20] Train Loss: 0.8214, Train Acc: 0.7477 | Val Loss: 1.0366, Val Acc: 0.7046 | Time: 128.2s
+Epoch [8/20] Train Loss: 0.8169, Train Acc: 0.7446 | Val Loss: 1.0117, Val Acc: 0.6956 | Time: 126.6s
+Epoch [9/20] Train Loss: 0.7834, Train Acc: 0.7554 | Val Loss: 0.9878, Val Acc: 0.7019 | Time: 126.6s
+Epoch [10/20] Train Loss: 0.7730, Train Acc: 0.7589 | Val Loss: 1.0455, Val Acc: 0.7055 | Time: 127.4s
+Epoch [11/20] Train Loss: 0.7450, Train Acc: 0.7645 | Val Loss: 0.9403, Val Acc: 0.7272 | Time: 127.4s
+Saved best model to resnet18_best.pth
+Epoch [12/20] Train Loss: 0.7135, Train Acc: 0.7753 | Val Loss: 1.0580, Val Acc: 0.6893 | Time: 126.5s
+Epoch [13/20] Train Loss: 0.7027, Train Acc: 0.7782 | Val Loss: 1.0221, Val Acc: 0.7082 | Time: 127.1s
+Epoch [14/20] Train Loss: 0.6888, Train Acc: 0.7817 | Val Loss: 1.0441, Val Acc: 0.7064 | Time: 126.1s
+Epoch [15/20] Train Loss: 0.6882, Train Acc: 0.7840 | Val Loss: 1.0236, Val Acc: 0.7100 | Time: 126.1s
+Epoch [16/20] Train Loss: 0.6572, Train Acc: 0.7865 | Val Loss: 1.1263, Val Acc: 0.6856 | Time: 127.5s
+Epoch [17/20] Train Loss: 0.6805, Train Acc: 0.7862 | Val Loss: 1.1389, Val Acc: 0.6838 | Time: 127.6s
+Epoch [18/20] Train Loss: 0.6662, Train Acc: 0.7891 | Val Loss: 1.0494, Val Acc: 0.6865 | Time: 126.7s
+Epoch [19/20] Train Loss: 0.6545, Train Acc: 0.7836 | Val Loss: 1.1003, Val Acc: 0.6974 | Time: 131.5s
+Epoch [20/20] Train Loss: 0.6186, Train Acc: 0.7987 | Val Loss: 1.1457, Val Acc: 0.6965 | Time: 126.2s
+Best Val Accuracy: 0.7272

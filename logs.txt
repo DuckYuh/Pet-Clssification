@@ -1,0 +1,180 @@
+CNN Baseline:
+1/
+Epoch [1/20] Train Loss: 3.5899, Train Acc: 0.0367 | Val Loss: 3.5484, Val Acc: 0.0488 | Time: 139.0s
+Saved best model to cnn_best.pth
+Epoch [2/20] Train Loss: 3.5377, Train Acc: 0.0538 | Val Loss: 3.5211, Val Acc: 0.0569 | Time: 146.7s
+Saved best model to cnn_best.pth
+Epoch [3/20] Train Loss: 3.5111, Train Acc: 0.0671 | Val Loss: 3.4998, Val Acc: 0.0714 | Time: 121.8s
+Saved best model to cnn_best.pth
+Epoch [4/20] Train Loss: 3.4949, Train Acc: 0.0625 | Val Loss: 3.4738, Val Acc: 0.0732 | Time: 120.7s
+Saved best model to cnn_best.pth
+Epoch [5/20] Train Loss: 3.4658, Train Acc: 0.0661 | Val Loss: 3.4428, Val Acc: 0.0822 | Time: 119.9s
+Saved best model to cnn_best.pth
+Epoch [6/20] Train Loss: 3.4014, Train Acc: 0.0791 | Val Loss: 3.3548, Val Acc: 0.1021 | Time: 122.9s
+Saved best model to cnn_best.pth
+Epoch [7/20] Train Loss: 3.3131, Train Acc: 0.1005 | Val Loss: 3.2731, Val Acc: 0.1201 | Time: 123.0s
+Saved best model to cnn_best.pth
+Epoch [8/20] Train Loss: 3.2492, Train Acc: 0.1141 | Val Loss: 3.2048, Val Acc: 0.1391 | Time: 120.7s
+Saved best model to cnn_best.pth
+Epoch [9/20] Train Loss: 3.1646, Train Acc: 0.1295 | Val Loss: 3.1705, Val Acc: 0.1445 | Time: 121.3s
+Saved best model to cnn_best.pth
+Epoch [10/20] Train Loss: 3.1106, Train Acc: 0.1456 | Val Loss: 3.0790, Val Acc: 0.1725 | Time: 121.2s
+Saved best model to cnn_best.pth
+Epoch [11/20] Train Loss: 3.0604, Train Acc: 0.1568 | Val Loss: 3.0727, Val Acc: 0.1725 | Time: 120.8s
+Epoch [12/20] Train Loss: 3.0176, Train Acc: 0.1684 | Val Loss: 2.9719, Val Acc: 0.2051 | Time: 123.2s
+Saved best model to cnn_best.pth
+Epoch [13/20] Train Loss: 2.9625, Train Acc: 0.1812 | Val Loss: 3.0167, Val Acc: 0.1987 | Time: 121.6s
+Epoch [14/20] Train Loss: 2.9394, Train Acc: 0.1862 | Val Loss: 2.9615, Val Acc: 0.2014 | Time: 122.5s
+Epoch [15/20] Train Loss: 2.8859, Train Acc: 0.2044 | Val Loss: 2.8520, Val Acc: 0.2276 | Time: 128.8s
+Saved best model to cnn_best.pth
+Epoch [16/20] Train Loss: 2.8266, Train Acc: 0.2183 | Val Loss: 2.8651, Val Acc: 0.2258 | Time: 122.5s
+Epoch [17/20] Train Loss: 2.7794, Train Acc: 0.2245 | Val Loss: 2.8219, Val Acc: 0.2340 | Time: 129.7s
+Saved best model to cnn_best.pth
+Epoch [18/20] Train Loss: 2.7370, Train Acc: 0.2338 | Val Loss: 2.7838, Val Acc: 0.2430 | Time: 129.1s
+Saved best model to cnn_best.pth
+Epoch [19/20] Train Loss: 2.6904, Train Acc: 0.2510 | Val Loss: 2.7107, Val Acc: 0.2457 | Time: 129.8s
+Saved best model to cnn_best.pth
+Epoch [20/20] Train Loss: 2.6297, Train Acc: 0.2655 | Val Loss: 2.7349, Val Acc: 0.2502 | Time: 129.0s
+Saved best model to cnn_best.pth
+Best Val Accuracy: 0.2502
+2/
+Epoch [1/10] Train Loss: 2.5777, Train Acc: 0.2802 | Val Loss: 2.6883, Val Acc: 0.2575 | Time: 153.1s
+Saved best model to cnn_best.pth
+Epoch [2/10] Train Loss: 2.5375, Train Acc: 0.2951 | Val Loss: 2.6796, Val Acc: 0.2818 | Time: 168.4s
+Saved best model to cnn_best.pth
+Epoch [3/10] Train Loss: 2.5051, Train Acc: 0.3007 | Val Loss: 2.6512, Val Acc: 0.2737 | Time: 165.4s
+Epoch [4/10] Train Loss: 2.4677, Train Acc: 0.3070 | Val Loss: 2.5549, Val Acc: 0.3008 | Time: 165.4s
+Saved best model to cnn_best.pth
+Epoch [5/10] Train Loss: 2.4438, Train Acc: 0.3138 | Val Loss: 2.5707, Val Acc: 0.3089 | Time: 163.4s
+Saved best model to cnn_best.pth
+Epoch [6/10] Train Loss: 2.4085, Train Acc: 0.3175 | Val Loss: 2.5391, Val Acc: 0.2963 | Time: 150.8s
+Epoch [7/10] Train Loss: 2.3664, Train Acc: 0.3345 | Val Loss: 2.5134, Val Acc: 0.3107 | Time: 164.8s
+Saved best model to cnn_best.pth
+Epoch [8/10] Train Loss: 2.3270, Train Acc: 0.3496 | Val Loss: 2.5565, Val Acc: 0.3089 | Time: 123.6s
+Epoch [9/10] Train Loss: 2.2916, Train Acc: 0.3424 | Val Loss: 2.5091, Val Acc: 0.3198 | Time: 165.9s
+Saved best model to cnn_best.pth
+Epoch [10/10] Train Loss: 2.2717, Train Acc: 0.3565 | Val Loss: 2.5182, Val Acc: 0.3053 | Time: 166.2s
+Best Val Accuracy: 0.3198
+3/
+Epoch [1/10] Train Loss: 2.2661, Train Acc: 0.3556 | Val Loss: 2.4794, Val Acc: 0.3279 | Time: 180.4s
+Saved best model to cnn_best.pth
+Epoch [2/10] Train Loss: 2.2301, Train Acc: 0.3683 | Val Loss: 2.4265, Val Acc: 0.3342 | Time: 168.1s
+Saved best model to cnn_best.pth
+Epoch [3/10] Train Loss: 2.1892, Train Acc: 0.3819 | Val Loss: 2.4134, Val Acc: 0.3189 | Time: 164.3s
+Epoch [4/10] Train Loss: 2.1630, Train Acc: 0.3778 | Val Loss: 2.4178, Val Acc: 0.3424 | Time: 162.5s
+Saved best model to cnn_best.pth
+Epoch [5/10] Train Loss: 2.1330, Train Acc: 0.3882 | Val Loss: 2.4413, Val Acc: 0.3360 | Time: 166.6s
+Epoch [6/10] Train Loss: 2.1216, Train Acc: 0.3944 | Val Loss: 2.3412, Val Acc: 0.3568 | Time: 131.8s
+Saved best model to cnn_best.pth
+Epoch [7/10] Train Loss: 2.0850, Train Acc: 0.4072 | Val Loss: 2.3316, Val Acc: 0.3550 | Time: 120.4s
+Epoch [8/10] Train Loss: 2.0599, Train Acc: 0.4134 | Val Loss: 2.3697, Val Acc: 0.3532 | Time: 120.4s
+Epoch [9/10] Train Loss: 2.0386, Train Acc: 0.4221 | Val Loss: 2.3341, Val Acc: 0.3568 | Time: 120.3s
+Epoch [10/10] Train Loss: 1.9957, Train Acc: 0.4364 | Val Loss: 2.3178, Val Acc: 0.3586 | Time: 120.3s
+Saved best model to cnn_best.pth
+Best Val Accuracy: 0.3586
+4/
+Epoch [1/10] Train Loss: 1.9720, Train Acc: 0.4408 | Val Loss: 2.3404, Val Acc: 0.3559 | Time: 118.9s
+Saved best model to cnn_best.pth
+Epoch [2/10] Train Loss: 1.9558, Train Acc: 0.4346 | Val Loss: 2.3244, Val Acc: 0.3622 | Time: 121.1s
+Saved best model to cnn_best.pth
+Epoch [3/10] Train Loss: 1.9234, Train Acc: 0.4540 | Val Loss: 2.3269, Val Acc: 0.3487 | Time: 121.1s
+Epoch [4/10] Train Loss: 1.9038, Train Acc: 0.4592 | Val Loss: 2.2878, Val Acc: 0.3677 | Time: 120.3s
+Saved best model to cnn_best.pth
+Epoch [5/10] Train Loss: 1.8765, Train Acc: 0.4617 | Val Loss: 2.3156, Val Acc: 0.3713 | Time: 120.9s
+Saved best model to cnn_best.pth
+Epoch [6/10] Train Loss: 1.8600, Train Acc: 0.4737 | Val Loss: 2.3106, Val Acc: 0.3604 | Time: 121.2s
+Epoch [7/10] Train Loss: 1.8316, Train Acc: 0.4725 | Val Loss: 2.2888, Val Acc: 0.3740 | Time: 121.4s
+Saved best model to cnn_best.pth
+Epoch [8/10] Train Loss: 1.8098, Train Acc: 0.4849 | Val Loss: 2.3149, Val Acc: 0.3640 | Time: 121.6s
+Epoch [9/10] Train Loss: 1.7838, Train Acc: 0.4969 | Val Loss: 2.2920, Val Acc: 0.3839 | Time: 120.3s
+Saved best model to cnn_best.pth
+Epoch [10/10] Train Loss: 1.7649, Train Acc: 0.4898 | Val Loss: 2.3013, Val Acc: 0.3776 | Time: 121.4s
+Best Val Accuracy: 0.3839
+5/
+Epoch [1/10] Train Loss: 1.7833, Train Acc: 0.4780 | Val Loss: 2.3318, Val Acc: 0.3749 | Time: 129.0s
+Saved best model to cnn_best.pth
+Epoch [2/10] Train Loss: 1.7390, Train Acc: 0.4956 | Val Loss: 2.3140, Val Acc: 0.3893 | Time: 123.1s
+Saved best model to cnn_best.pth
+Epoch [3/10] Train Loss: 1.7088, Train Acc: 0.5050 | Val Loss: 2.2676, Val Acc: 0.3749 | Time: 121.2s
+Epoch [4/10] Train Loss: 1.6982, Train Acc: 0.5070 | Val Loss: 2.2444, Val Acc: 0.3740 | Time: 122.9s
+Epoch [5/10] Train Loss: 1.6700, Train Acc: 0.5170 | Val Loss: 2.3101, Val Acc: 0.3650 | Time: 120.9s
+Epoch [6/10] Train Loss: 1.6623, Train Acc: 0.5176 | Val Loss: 2.1942, Val Acc: 0.3921 | Time: 122.2s
+Saved best model to cnn_best.pth
+Epoch [7/10] Train Loss: 1.6378, Train Acc: 0.5191 | Val Loss: 2.2991, Val Acc: 0.3921 | Time: 122.2s
+Epoch [8/10] Train Loss: 1.6159, Train Acc: 0.5275 | Val Loss: 2.2718, Val Acc: 0.4047 | Time: 124.5s
+Saved best model to cnn_best.pth
+Epoch [9/10] Train Loss: 1.6207, Train Acc: 0.5236 | Val Loss: 2.3595, Val Acc: 0.3740 | Time: 121.5s
+Epoch [10/10] Train Loss: 1.5856, Train Acc: 0.5387 | Val Loss: 2.2312, Val Acc: 0.3939 | Time: 165.1s
+Best Val Accuracy: 0.4047
+6/
+Epoch [1/10] Train Loss: 1.6089, Train Acc: 0.5373 | Val Loss: 2.3192, Val Acc: 0.3830 | Time: 157.1s
+Saved best model to cnn_best.pth
+Epoch [2/10] Train Loss: 1.5704, Train Acc: 0.5358 | Val Loss: 2.2963, Val Acc: 0.3848 | Time: 147.2s
+Saved best model to cnn_best.pth
+Epoch [3/10] Train Loss: 1.5604, Train Acc: 0.5420 | Val Loss: 2.2020, Val Acc: 0.4029 | Time: 155.8s
+Saved best model to cnn_best.pth
+Epoch [4/10] Train Loss: 1.5519, Train Acc: 0.5443 | Val Loss: 2.2995, Val Acc: 0.3785 | Time: 158.7s
+Epoch [5/10] Train Loss: 1.5367, Train Acc: 0.5584 | Val Loss: 2.2730, Val Acc: 0.4101 | Time: 157.4s
+Saved best model to cnn_best.pth
+Epoch [6/10] Train Loss: 1.5107, Train Acc: 0.5582 | Val Loss: 2.1760, Val Acc: 0.4210 | Time: 168.0s
+Saved best model to cnn_best.pth
+Epoch [7/10] Train Loss: 1.5063, Train Acc: 0.5625 | Val Loss: 2.2953, Val Acc: 0.4020 | Time: 145.6s
+Epoch [8/10] Train Loss: 1.4930, Train Acc: 0.5526 | Val Loss: 2.2474, Val Acc: 0.3957 | Time: 155.0s
+Epoch [9/10] Train Loss: 1.4581, Train Acc: 0.5698 | Val Loss: 2.2932, Val Acc: 0.3984 | Time: 157.4s
+Epoch [10/10] Train Loss: 1.4551, Train Acc: 0.5735 | Val Loss: 2.2511, Val Acc: 0.3975 | Time: 165.4s
+Best Val Accuracy: 0.4210
+
+Resnet18 Freeze:
+Epoch [1/20] Train Loss: 1.9661, Train Acc: 0.4689 | Val Loss: 1.2253, Val Acc: 0.6360 | Time: 125.2s
+Saved best model to resnet18_best.pth
+Epoch [2/20] Train Loss: 1.1971, Train Acc: 0.6580 | Val Loss: 1.0332, Val Acc: 0.6883 | Time: 126.5s
+Saved best model to resnet18_best.pth
+Epoch [3/20] Train Loss: 1.0461, Train Acc: 0.6991 | Val Loss: 1.0466, Val Acc: 0.6649 | Time: 126.4s
+Epoch [4/20] Train Loss: 0.9704, Train Acc: 0.7017 | Val Loss: 0.9706, Val Acc: 0.7055 | Time: 127.8s
+Saved best model to resnet18_best.pth
+Epoch [5/20] Train Loss: 0.8982, Train Acc: 0.7285 | Val Loss: 0.9939, Val Acc: 0.6983 | Time: 126.3s
+Epoch [6/20] Train Loss: 0.8556, Train Acc: 0.7396 | Val Loss: 1.0115, Val Acc: 0.6992 | Time: 128.5s
+Epoch [7/20] Train Loss: 0.8214, Train Acc: 0.7477 | Val Loss: 1.0366, Val Acc: 0.7046 | Time: 128.2s
+Epoch [8/20] Train Loss: 0.8169, Train Acc: 0.7446 | Val Loss: 1.0117, Val Acc: 0.6956 | Time: 126.6s
+Epoch [9/20] Train Loss: 0.7834, Train Acc: 0.7554 | Val Loss: 0.9878, Val Acc: 0.7019 | Time: 126.6s
+Epoch [10/20] Train Loss: 0.7730, Train Acc: 0.7589 | Val Loss: 1.0455, Val Acc: 0.7055 | Time: 127.4s
+Epoch [11/20] Train Loss: 0.7450, Train Acc: 0.7645 | Val Loss: 0.9403, Val Acc: 0.7272 | Time: 127.4s
+Saved best model to resnet18_best.pth
+Epoch [12/20] Train Loss: 0.7135, Train Acc: 0.7753 | Val Loss: 1.0580, Val Acc: 0.6893 | Time: 126.5s
+Epoch [13/20] Train Loss: 0.7027, Train Acc: 0.7782 | Val Loss: 1.0221, Val Acc: 0.7082 | Time: 127.1s
+Epoch [14/20] Train Loss: 0.6888, Train Acc: 0.7817 | Val Loss: 1.0441, Val Acc: 0.7064 | Time: 126.1s
+Epoch [15/20] Train Loss: 0.6882, Train Acc: 0.7840 | Val Loss: 1.0236, Val Acc: 0.7100 | Time: 126.1s
+Epoch [16/20] Train Loss: 0.6572, Train Acc: 0.7865 | Val Loss: 1.1263, Val Acc: 0.6856 | Time: 127.5s
+Epoch [17/20] Train Loss: 0.6805, Train Acc: 0.7862 | Val Loss: 1.1389, Val Acc: 0.6838 | Time: 127.6s
+Epoch [18/20] Train Loss: 0.6662, Train Acc: 0.7891 | Val Loss: 1.0494, Val Acc: 0.6865 | Time: 126.7s
+Epoch [19/20] Train Loss: 0.6545, Train Acc: 0.7836 | Val Loss: 1.1003, Val Acc: 0.6974 | Time: 131.5s
+Epoch [20/20] Train Loss: 0.6186, Train Acc: 0.7987 | Val Loss: 1.1457, Val Acc: 0.6965 | Time: 126.2s
+Best Val Accuracy: 0.7272
+
+Resnet18 finetune:
+Epoch [1/20] Train Loss: 0.7767, Train Acc: 0.7552 | Val Loss: 0.7697, Val Acc: 0.7669 | Time: 304.2s
+Saved best model to resnet18_finetune.pth
+Epoch [2/20] Train Loss: 0.3777, Train Acc: 0.8786 | Val Loss: 0.7869, Val Acc: 0.7696 | Time: 275.1s
+Saved best model to resnet18_finetune.pth
+Epoch [3/20] Train Loss: 0.2564, Train Acc: 0.9207 | Val Loss: 0.7072, Val Acc: 0.7886 | Time: 332.4s
+Saved best model to resnet18_finetune.pth
+Epoch [4/20] Train Loss: 0.1723, Train Acc: 0.9455 | Val Loss: 0.7453, Val Acc: 0.7931 | Time: 287.2s
+Saved best model to resnet18_finetune.pth
+Epoch [5/20] Train Loss: 0.1354, Train Acc: 0.9559 | Val Loss: 0.8938, Val Acc: 0.7615 | Time: 261.7s
+Epoch [6/20] Train Loss: 0.1232, Train Acc: 0.9617 | Val Loss: 0.8622, Val Acc: 0.7814 | Time: 254.8s
+Epoch [7/20] Train Loss: 0.1076, Train Acc: 0.9666 | Val Loss: 0.8687, Val Acc: 0.7913 | Time: 269.5s
+Epoch [8/20] Train Loss: 0.0823, Train Acc: 0.9737 | Val Loss: 0.9129, Val Acc: 0.7995 | Time: 255.9s
+Saved best model to resnet18_finetune.pth
+Epoch [9/20] Train Loss: 0.1067, Train Acc: 0.9648 | Val Loss: 0.9200, Val Acc: 0.7706 | Time: 255.8s
+Epoch [10/20] Train Loss: 0.1015, Train Acc: 0.9691 | Val Loss: 0.8998, Val Acc: 0.7516 | Time: 251.1s
+Epoch [11/20] Train Loss: 0.0888, Train Acc: 0.9731 | Val Loss: 0.9567, Val Acc: 0.7796 | Time: 296.5s
+Epoch [12/20] Train Loss: 0.0775, Train Acc: 0.9758 | Val Loss: 1.0541, Val Acc: 0.7507 | Time: 251.6s
+Epoch [13/20] Train Loss: 0.0798, Train Acc: 0.9735 | Val Loss: 1.0513, Val Acc: 0.7570 | Time: 263.8s
+Epoch [14/20] Train Loss: 0.0841, Train Acc: 0.9706 | Val Loss: 1.0681, Val Acc: 0.7706 | Time: 257.8s
+Epoch [15/20] Train Loss: 0.0899, Train Acc: 0.9700 | Val Loss: 0.9942, Val Acc: 0.7787 | Time: 253.2s
+Epoch [16/20] Train Loss: 0.0700, Train Acc: 0.9772 | Val Loss: 0.9247, Val Acc: 0.7922 | Time: 266.4s
+Epoch [17/20] Train Loss: 0.0545, Train Acc: 0.9832 | Val Loss: 0.8761, Val Acc: 0.7958 | Time: 255.3s
+Epoch [18/20] Train Loss: 0.0395, Train Acc: 0.9888 | Val Loss: 0.9165, Val Acc: 0.7977 | Time: 255.5s
+Epoch [19/20] Train Loss: 0.0508, Train Acc: 0.9847 | Val Loss: 1.0507, Val Acc: 0.7796 | Time: 251.7s
+Epoch [20/20] Train Loss: 0.0627, Train Acc: 0.9816 | Val Loss: 1.0462, Val Acc: 0.7895 | Time: 257.1s
+Best Val Accuracy: 0.7995

@@ -5,7 +5,7 @@ python train.py --model cnn --epochs 10
 python train.py --model resnet18 --freeze-backbone --epochs 10
 
 # Train ResNet18 Fine-tune (Load Best Model để train tiếp tục)
-python train.py --model resnet18 --epochs 10 --lr 1e-4 --resume resnet18_best.pth --save-path resnet18_fine-tune.pth
+python train.py --model resnet18 --epochs 10 --lr 1e-4 --resume resnet18_best.pth --save-path resnet18_finetune.pth
 
 # Các options khác
 python train.py --model resnet18 --batch-size 32 --lr 0.0001 --image-size 224 --save-path my_model.pth

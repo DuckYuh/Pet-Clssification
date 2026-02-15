@@ -1,0 +1,23 @@
+Using device: cpu
+Model: cnn
+Number of classes: 37
+Train samples: 5172
+Val samples: 1107
+Loaded checkpoint from cnn_best.pth
+Epoch [1/10] Train Loss: 2.5777, Train Acc: 0.2802 | Val Loss: 2.6883, Val Acc: 0.2575 | Time: 153.1s
+Saved best model to cnn_best.pth
+Epoch [2/10] Train Loss: 2.5375, Train Acc: 0.2951 | Val Loss: 2.6796, Val Acc: 0.2818 | Time: 168.4s
+Saved best model to cnn_best.pth
+Epoch [3/10] Train Loss: 2.5051, Train Acc: 0.3007 | Val Loss: 2.6512, Val Acc: 0.2737 | Time: 165.4s
+Epoch [4/10] Train Loss: 2.4677, Train Acc: 0.3070 | Val Loss: 2.5549, Val Acc: 0.3008 | Time: 165.4s
+Saved best model to cnn_best.pth
+Epoch [5/10] Train Loss: 2.4438, Train Acc: 0.3138 | Val Loss: 2.5707, Val Acc: 0.3089 | Time: 163.4s
+Saved best model to cnn_best.pth
+Epoch [6/10] Train Loss: 2.4085, Train Acc: 0.3175 | Val Loss: 2.5391, Val Acc: 0.2963 | Time: 150.8s
+Epoch [7/10] Train Loss: 2.3664, Train Acc: 0.3345 | Val Loss: 2.5134, Val Acc: 0.3107 | Time: 164.8s
+Saved best model to cnn_best.pth
+Epoch [8/10] Train Loss: 2.3270, Train Acc: 0.3496 | Val Loss: 2.5565, Val Acc: 0.3089 | Time: 123.6s
+Epoch [9/10] Train Loss: 2.2916, Train Acc: 0.3424 | Val Loss: 2.5091, Val Acc: 0.3198 | Time: 165.9s
+Saved best model to cnn_best.pth
+Epoch [10/10] Train Loss: 2.2717, Train Acc: 0.3565 | Val Loss: 2.5182, Val Acc: 0.3053 | Time: 166.2s
+Best Val Accuracy: 0.3198

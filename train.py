@@ -153,8 +153,19 @@ def main():
     model = model.to(device)
     
     if args.resume is not None:
-        model.load_state_dict(torch.load(args.resume, map_location=device))
+        checkpoint = torch.load(args.resume, map_location=device)
+        if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint:
+            model.load_state_dict(checkpoint["model_state_dict"])
+            best_val_acc = checkpoint.get("best_val_acc", 0.0)
+        else:
+            # Legacy checkpoint (state_dict only)
+            model.load_state_dict(checkpoint)
+            best_val_acc = 0.0
         print(f"Loaded checkpoint from {args.resume}")
+    else:
+        best_val_acc = 0.0
+        
+    save_path = args.save_path or f"{args.model}_best.pth"
 
     criterion = nn.CrossEntropyLoss()
     
@@ -163,9 +174,6 @@ def main():
     optimizer = optim.Adam(trainable_params, lr=args.lr)
 
     # Training loop
-    best_val_acc = 0.0
-    save_path = args.save_path or f"{args.model}_best.pth"
-
     for epoch in range(args.epochs):
         start_time = time.time()
 
@@ -193,7 +201,10 @@ def main():
 
         if val_acc > best_val_acc:
             best_val_acc = val_acc
-            torch.save(model.state_dict(), save_path)
+            torch.save({
+                "model_state_dict": model.state_dict(),
+                "best_val_acc": best_val_acc,
+            }, save_path)
             print(f"Saved best model to {save_path}")
 
     print(f"Best Val Accuracy: {best_val_acc:.4f}")

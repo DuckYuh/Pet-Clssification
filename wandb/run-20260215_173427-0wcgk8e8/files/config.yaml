@@ -1,0 +1,79 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            bbx3evyob4ufd01d361ssytbze5g2eel:
+                args:
+                    - --model
+                    - resnet18
+                    - --epochs
+                    - "20"
+                    - --lr
+                    - "1e-4"
+                    - --resume
+                    - resnet18_best.pth
+                    - --save-path
+                    - resnet18_finetune.pth
+                    - --wandb
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "123649126400"
+                        used: "111985463296"
+                email: huynguyen531pro@gmail.com
+                executable: C:\Users\duchu\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+                git:
+                    commit: 502a2f2680df065833f2f970a7239b6c2121a515
+                    remote: https://github.com/DuckYuh/Pet-Clssification.git
+                gpu: NVIDIA GeForce MX110
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Maxwell
+                      cudaCores: 256
+                      memoryTotal: "2147483648"
+                      name: NVIDIA GeForce MX110
+                      uuid: GPU-e1c04a71-ac11-4c88-a975-21d0cb722750
+                host: DxcHxy
+                memory:
+                    total: "8464355328"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\duchu\Downloads\Pet-Classification\train.py
+                python: CPython 3.12.10
+                root: C:\Users\duchu\Downloads\Pet-Classification
+                startedAt: "2026-02-15T10:34:27.912320Z"
+                writerId: bbx3evyob4ufd01d361ssytbze5g2eel
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.10
+            "5": 0.24.2
+            "8":
+                - 3
+            "12": 0.24.2
+            "13": windows-amd64
+batch_size:
+    value: 16
+epochs:
+    value: 20
+freeze_backbone:
+    value: false
+image_size:
+    value: 128
+lr:
+    value: 0.0001
+model:
+    value: resnet18

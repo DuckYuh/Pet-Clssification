@@ -91,7 +91,10 @@ def main():
     # Build and load model
     model = build_model(args.model, num_classes)
     checkpoint = torch.load(args.checkpoint, map_location=device)
-    model.load_state_dict(checkpoint)
+    if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint:
+        model.load_state_dict(checkpoint["model_state_dict"])
+    else:
+        model.load_state_dict(checkpoint)
     model = model.to(device)
     model.eval()
 
