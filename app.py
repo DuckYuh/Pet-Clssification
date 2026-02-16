@@ -56,7 +56,7 @@ if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
     
     with col1:
-        st.image(image, caption="Uploaded Image", width=600)
+        st.image(image, caption="Uploaded Image", width=400)
 
     input_tensor = transform(image).unsqueeze(0)
 
@@ -75,15 +75,15 @@ if uploaded_file:
         st.write("Prediction:", best_class)
         st.write("Confidence:", f"{best_conf:.2f}%")
 
-st.markdown("""
+st.sidebar.markdown("""
     <style>
     .copy-right {
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
-        text-align: center;
-        padding: 10px;
+        text-align: left;
+        margin-left: 20px;
         font-size: 14px;
         color: #888;
         background-color: inherit;
