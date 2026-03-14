@@ -173,7 +173,7 @@ python evaluate.py --model resnet18 --checkpoint resnet18_best.pth --show-plots
 Chạy ứng dụng Streamlit để demo:
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py  
 ```
 
 Hoặc truy cập bản deploy online: **[pet-clssification.streamlit.app](https://pet-clssification.streamlit.app/)**
